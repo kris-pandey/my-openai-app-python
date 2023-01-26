@@ -49,4 +49,22 @@ Follow the instructions below to get set up.
 
 You should now be able to access the app at [http://localhost:5000](http://localhost:5000)! 
 
+#Purpose:
+
+In the app.py refer to the line 25, we have just mentioned the first two Presidents of the US and submitted to the OpenAI's API. Based on this information OpenAPI is able to return all the Presidents of the US.
+
+```
+def generate_prompt(President):
+    return """Find names and year for US presidents.
+President: 1
+Names: George Washington, year April 30 1789 to March 4 1797
+President: 2
+Names: John Adams, year March 4 1797 to March 4 1801
+President: {}
+Names:""".format(
+        President.capitalize()
+    )
+
+```
+
 This app is created on the basis of this example app, check out the [tutorial](https://beta.openai.com/docs/quickstart).
