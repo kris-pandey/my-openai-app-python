@@ -49,7 +49,7 @@ Follow the instructions below to get set up.
 
 You should now be able to access the app at [http://localhost:5000](http://localhost:5000)! 
 
-#Purpose:
+## Purpose:
 
 In the app.py refer to the line 25, we have just mentioned the first two Presidents of the US and submitted to the OpenAI's API. Based on this information OpenAPI is able to return all the Presidents of the US.
 
