@@ -3,6 +3,7 @@
 #
 
 name: Python OpenAI Application vulnerability scan with Snyk
+run-name: Python OpenAI App vulnerability scan with Snyk by @${{ github.actor }}
 
 on:
   push:
