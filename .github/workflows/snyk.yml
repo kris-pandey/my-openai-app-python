@@ -2,7 +2,7 @@
 # Snyk. The results are then uploaded to GitHub Security Code Scanning
 #
 
-name: Python OpenAI Application vulnerability scan : Snyk
+name: Python OpenAI Application vulnerability scan with Snyk
 
 on:
   push:
